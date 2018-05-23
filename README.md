@@ -17,7 +17,7 @@ NOTICE: `OnNewMessage` callback will receive new message only if it's ending wit
 ``` go
 package main
 
-import "github.com/diogok/udo_server"
+import "github.com/diogok/udp_server"
 
 func main() {
 	server := udp_server.New("localhost:9999")
